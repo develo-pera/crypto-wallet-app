@@ -15,4 +15,4 @@ export const NetworkName = {
   80001: "Mumbai",
 };
 
-export const injected = new InjectedConnector({ supportedChainIds: [ChainId.Mainnet, ChainId.Mumbai] });
+export const injected = new InjectedConnector({ supportedChainIds: [ChainId.Mainnet] });
