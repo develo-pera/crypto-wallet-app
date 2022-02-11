@@ -36,6 +36,7 @@ const Home = () => {
       const filteredToknes = data.items.filter(token =>
         token.contract_address != NEXO_TOKEN_ADDRESS &&
         token.contract_address != ETH_ADDRESS_ON_COVALENT &&
+        token.contract_address != "0xefb47d73181bb6963c8113a58184525355287573" &&
         token.balance > 0
       );
 
