@@ -1,0 +1,22 @@
+@import "../../styles/colors";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.wrapperFlex {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.address {
+  padding: 1px 2px;
+  background-color: $main-black;
+  color: #fff;
+}

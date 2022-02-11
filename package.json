@@ -1,0 +1,42 @@
+{
+  "name": "crypto-wallet-app",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build --noninteractive "
+  },
+  "dependencies": {
+    "@ethersproject/constants": "^5.5.0",
+    "@ethersproject/contracts": "^5.5.0",
+    "@ethersproject/units": "^5.5.0",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "boring-avatars": "^1.5.8",
+    "ethers": "^5.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-toastify": "^8.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-razzle": "4.0.4",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "prettier": "2.2.1",
+    "razzle": "^4.0.4",
+    "razzle-dev-utils": "^4.0.4",
+    "razzle-plugin-scss": "^4.2.7",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
