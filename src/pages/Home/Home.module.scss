@@ -4,7 +4,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  width: 100%;
 }
 
 .wrapperFlex {
@@ -19,4 +18,49 @@
   padding: 1px 2px;
   background-color: $main-black;
   color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 0 20px;
+  display: inline-block;
+}
+
+.compactText {
+  margin: 0;
+}
+
+.darkText {
+  color: $main-black;
+}
+
+.card {
+  box-shadow: 0 0 3px rgb(4 25 39 / 15%);
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.nexoContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nexoData {
+  margin: 24px 24px 24px 0;
+}
+
+.title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.nexoBalanceValue {
+  margin: 8px 0 0;
+  font-weight: bold;
+  color: #60BEFF;
+}
+
+.otherTokens {
+  margin: 48px 0;
 }

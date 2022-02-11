@@ -7,6 +7,12 @@ export const ChainId = {
   Goerli: 5,
   Kovan: 42,
   Localhost: 1337,
+  Mumbai: 80001,
 };
 
-export const injected = new InjectedConnector({ supportedChainIds: [ChainId.Mainnet] });
+export const NetworkName = {
+  1: "Mainnet",
+  80001: "Mumbai",
+};
+
+export const injected = new InjectedConnector({ supportedChainIds: [ChainId.Mainnet, ChainId.Mumbai] });

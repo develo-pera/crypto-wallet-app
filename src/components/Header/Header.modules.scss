@@ -1,3 +1,5 @@
+@import "../../styles/colors";
+
 .navigation {
   height: 90px;
   padding: 20px;
@@ -11,4 +13,5 @@
   padding: 0;
   font-weight: bold;
   font-size: 20px;
+  color: $main-black;
 }
